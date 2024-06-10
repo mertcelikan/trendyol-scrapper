@@ -3,14 +3,12 @@
 This project is designed to extract product data from Trendyol, transform it, and load it into a MySQL database. The project is structured using an ETL (Extract, Transform, Load) pipeline, with the ability to handle different product categories dynamically.
 
 ## Table of Contents
-- [Setup and Installation](#setup-and-installation)
+- [Build Container](#build-container)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [License](#license)
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Build Container
 
 ```bash
 docker build -t trendyol_scrapy .
